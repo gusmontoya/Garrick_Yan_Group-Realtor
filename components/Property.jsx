@@ -13,7 +13,7 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
   <Link href={`/property/${externalID}`} passHref>
     <Flex flexWrap='wrap' w='420px' p='5' paddingTop='0px' justifyContent='flex-start' cursor='pointer' >
       <Box>
-        <Image src={coverPhoto ? coverPhoto.url : DefaultImage} width={400} height={260} />
+        <Image src={coverPhoto ? coverPhoto.url : DefaultImage} alt="" width={400} height={260} />
       </Box>
       <Box w='full'>
         <Flex paddingTop='2' alignItems='center' justifyContent='space-between'>
@@ -25,7 +25,7 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
             <Avatar size='sm' src={agency?.logo?.url}></Avatar>
           </Box>
         </Flex>
-        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='blue.400'>
+        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='#164296'>
           {rooms}
           <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
         </Flex>
