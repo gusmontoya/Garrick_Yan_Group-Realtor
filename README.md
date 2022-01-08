@@ -8,7 +8,7 @@ This is a mock real estate site displaying API ussage, search functions, and the
 This is a website made with Nextjs and React. Full state management with hooks and API routes was employed.
 ## Viewing the project
 
-You can view the project are this deployed link<a href="" target="_blank" alt="deployed Realt Estate site"> VIEW DEMO HERE</a>.
+You can view the project are this deployed link<a href="https://garrick-yan-group-realtor.vercel.app/" target="_blank" alt="deployed Realt Estate site"> VIEW DEMO HERE</a>.
 <br/>
 OR
 
